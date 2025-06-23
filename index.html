@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>card</title>
+    <style>
+      body {
+        background-color: burlywood;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 95vh;
+      }
+      #card {
+        background-color: whitesmoke;
+        width: 300px;
+        border-radius: 12px;
+      }
+      .card-content {
+        padding: 1rem;
+      }
+      .harry {
+        background-color: aqua;
+        padding: 0.25rem 0.5rem;
+        color: rgb(5, 48, 41);
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-size: x-small;
+      }
+      h3 {
+        font-size: 18px;
+        text-transform: capitalize;
+        font-family: sans-serif;
+      }
+      p {
+        color: rgb(88, 88, 88);
+        font-size: 12px;
+        line-height: 18px;
+      }
+      button {
+        background-color:teal;
+        width: 100%;
+        border: none;padding: 0.5rem;
+        border-radius: 10px;
+        color: whitesmoke;
+        font-size: 1rem;
+        text-transform: capitalize;
+        letter-spacing: 0.25ch;
+      }
+      .stats{
+        margin: 0.5rem 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      .stats span{
+        color: rgb(88, 88, 88);
+        font-size: 13px;
+      }
+      img{
+        border-radius: 10px 10px 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="card">
+      <img src="./harry.jpeg" alt="" />
+      <div class="card-content">
+        <span class="harry">featured</span>
+        <h3>harry potter</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
+          minima, ratione eveniet rem aliquam voluptates?
+        </p>
+        <button>learn more</button>
+        <div class="stats">
+          <span>5 min read</span>
+          <span>23 july 2025</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
