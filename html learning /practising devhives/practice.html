@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: turquoise;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 95vh;
+        }
+        #card {
+            background-color: rgb(2, 107, 107);
+            width: 300px;
+            border-radius: 12px;
+            box-shadow: 0 0 5px black;
+        }
+        #card .content {
+            padding: 1rem;
+        }
+        .bitcoin {
+            background-color: #56f1f1;
+            padding: 0.5rem 1rem;
+            color: black;
+            border-radius: 50px;
+            text-transform: uppercase;
+            font-size: x-small;
+        }
+        h3 {
+            font-size: 20px;
+            text-transform: capitalize;
+            font-family: sans-serif;
+            color: aqua;
+            margin: 15px 0;
+        }
+        p {
+            color: turquoise;
+            font-size: 15px;
+            line-height: 15px;
+        }
+        button {
+            background-color: aqua;
+            width: 100%;
+            border: none;padding: 0.5rem;
+            border-radius: 10px;
+            color: black;
+            font-size: 1rem;
+            text-transform: capitalize;
+            letter-spacing: 0.25ch;
+        }
+        .stats {
+            margin: 0.5rem 0;
+            display: flex;
+            justify-content:space-around;
+            border-radius: 10px;
+            
+        }
+        .stats {
+            color: greenyellow;
+            font-size: 15px;
+        }
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="card">
+        <img src="./bitcoin.jpeg" alt="">
+        <div class="content">
+            <span class="bitcoin"> why bitcoin ?</span>
+            <h3>BITCOIN</h3>
+            <p> Bitcoin is the first decentralized cryptocurrency. 
+                Based on a free-market ideology, bitcoin was invented in 2008.......... </p>
+            <button>learn more</button>
+            <div class="stats">
+                <span style="background-color: 
+                green;color:white; padding: 0.25rem; border-radius: 0.25rem;">buy</span>
+                <span style="background-color: 
+                red;color:white; padding: 0.25rem; border-radius: 0.25rem;">sell</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
