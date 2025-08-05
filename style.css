@@ -1,0 +1,109 @@
+body{
+    background-image: linear-gradient(to right, green, lightblue );
+
+}
+.cards{
+    display: flex;
+    justify-content: baseline;
+
+}
+.harry{
+    border-radius: 12px;
+    max-width: 550px;
+    height: 625px;
+    border: 10px;
+    margin: 15px;
+    padding: 12px;
+    font-size: xx-large;
+    text-shadow: 1.5px 2px orangered;
+    /* text-shadow: 1.5px 2px rgba(255, 47, 47, 0.904); */
+    text-align: center;
+    background-image: url(./hogwarts\ class.jpg);
+    background-size: cover;
+    box-shadow: 6px 8px 12px 2px;
+
+}
+.html{
+    color: black;
+    /* color: rgb(1, 85, 1); */
+}
+.html:hover{
+    color: orangered;
+}
+.wizard {
+    margin: 3rem;
+    border-radius: 1rem;
+}
+.nnn{
+    margin-top: 1.5rem;
+    color: black;
+    text-decoration:underline;
+    text-shadow: 1.5px 2px darkgreen;
+}
+
+.nft{
+    
+    border-radius: 12px;
+    max-width: 550px;
+    height: 625px;
+    border: 10px;
+    margin: 15px;
+    padding: 12px;
+    font-size: xx-large;
+    text-shadow: ;
+    text-align: center;
+    background-image: url(./nft2.png);
+    background-size: 500px 650px ;
+    box-shadow: 6px 8px 12px 2px ;
+    /* color: #044a53;
+    text-decoration: none; */
+    
+}
+.you{
+    color:aqua;
+    text-shadow: 2.5px 3.5px blue;
+    
+}
+.you:hover{
+    color: blue;
+}
+.token{
+    margin: 2.8rem;
+    border-radius: 1rem;
+}
+.eth{
+    margin-top: -1.5rem;
+    color: aqua;
+    text-shadow: 2.5px 3px blue;
+    text-decoration: underline;
+}
+.btc {
+    border-radius: 12px;
+    max-width: 550px;
+    height: 625px;
+    border: 10px;
+    margin: 15px;
+    padding: 12px;
+    font-size: xx-large;
+    text-shadow: 1.5px 2px rgba(80, 253, 239, 0.904);
+    text-align: center;
+    background-image: url(./btc\ blue.jpg);
+    background-size: 550px 625px;
+    box-shadow: 6px 8px 12px 2px;
+    
+}
+.sell{
+    color: #026b6b86;
+}
+.sell:hover{
+    color: blue;
+}
+.coin{
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+.buy{
+    color: #026b6b86;
+    text-shadow: 1.5px 2px rgba(80, 253, 239, 0.904);
+    text-decoration: underline;
+}
